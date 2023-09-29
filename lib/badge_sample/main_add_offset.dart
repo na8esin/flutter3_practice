@@ -47,10 +47,10 @@ class MyHomePageState extends State<MyHomePage> {
               textColor: Colors.black,
               backgroundColor: Colors.red,
               count: _counter,
+              offset: const Offset(8.0, -8.0),
               child: const Icon(
                 Icons.settings,
               ),
-              offset: Offset(8.0, -8.0),
             ),
             const SizedBox(
               height: 16.0,
